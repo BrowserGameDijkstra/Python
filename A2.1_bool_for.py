@@ -15,3 +15,10 @@ for a in True, False:
     c = a and b
     d = a or b
     print(a, b, c, d)
+    
+ # A2.2  Wahrheitstabelle der logischen Funktionen 
+ # c = (a and not b) or (not a and b). 
+for a in True, False: 
+     for b in True, False:
+        c = (a and not b) or (not a and b)
+     print(a, b, c)  
